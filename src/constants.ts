@@ -20,8 +20,8 @@ export const icons: string[] = [
     WebstormIcon
 ]
 
-export const HEADER_TITLE = "Memory"
-export const HEADER_SUBTITLE = "Соотнесите карты"
+export const HEADER_TITLE = "GUESS-CARDS"
+export const HEADER_SUBTITLE = "Открывайте пары карт по памяти"
 export const FOOTER_COPYRIGHT_TEXT = "Сделано на курсе Frontend"
 export const FOOTER_COPYRIGHT_LINK_URL = "https://karpov.courses/dev/frontend"
 export const FOOTER_COPYRIGHT_LINK_TEXT = "Karpov.Courses"
