@@ -1,0 +1,35 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer__container {
+  width: 100%;
+  max-width: var(--content-width);
+  margin: 0 auto;
+  min-height: var(--footer-height);
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__copyright, .footer__date {
+  font-size: 18px;
+  text-transform: lowercase;
+}
+
+.footer_copyright-link {
+  font-size: 18px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: var(--base-transition);
+}
+
+.footer_copyright-link:hover {
+  color: #73b4ef;
+}

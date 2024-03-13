@@ -1,0 +1,35 @@
+.content {
+  padding: var(--header-height) 0 var(--footer-height);
+}
+
+.page__content {
+  height: 100%;
+}
+
+.game {
+  max-width: 1116px;
+}
+
+.centered-block {
+  margin: 0 auto;
+}
+
+.game__board {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background-color: #d7e9f8;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.game__info {
+  max-width: 193px;
+}
+
+@media screen and (max-width: 1150px) {
+  .game {
+    padding: 0 24px;
+  }
+}

@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./assets/fonts/Formular-Medium.woff2') format('woff2'), url('./assets/fonts/Formular-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Formular';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./assets/fonts/Formular-Bold.woff2') format('woff2'), url('./assets/fonts/Formular-Bold.woff') format('woff');
+}
+
+:root {
+  --main-blue: #0083FC;
+  --main-red: #F53;
+  --light-blue: #bed7f8;
+
+  --header-height: 164px;
+  --footer-height: 40px;
+  --content-width: 1440px;
+
+  --base-transition: all .125s linear;
+}
+
+* {
+  all: unset;
+  display: revert;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Formular', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.25;
+  color: var(--main-blue);
+  background: linear-gradient(135deg, #b5b2f6, #aec2f6, #a0d9ee, #a5eeeb);
+  text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.page {
+  width: 100%;
+  max-width: var(--content-width);
+}
+
+.root__container {
+  margin: 0 auto;
+  height: 100vh;
+}
